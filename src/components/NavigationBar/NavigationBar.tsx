@@ -14,7 +14,7 @@ export default function NavigationBar() {
         <Navbar.Item renderAs={Link} to={"/"}>
           <img src={logo} alt={"Craftions"} />
           <h1 className={"web_logo_name"} style={{ paddingLeft: "0.5rem" }}>
-            Craftions
+            Craftions Files
           </h1>
         </Navbar.Item>
         <Navbar.Burger
@@ -49,6 +49,12 @@ export default function NavigationBar() {
         <div className={"navbar-start"}>
           <Navbar.Item renderAs={Link} to={"/"}>
             Home
+          </Navbar.Item>
+          <Navbar.Item renderAs={Link} to={"/"}>
+            Upload
+          </Navbar.Item>
+          <Navbar.Item renderAs={Link} to={"/abuse"}>
+            Report
           </Navbar.Item>
         </div>
         <div className={"navbar-end"}>
