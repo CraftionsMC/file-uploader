@@ -1,15 +1,15 @@
 {
-  "name": "@craftions/craftions-base-app",
+  "name": "@craftions/file-uploader",
   "version": "1.0.0",
-  "description": "A base template for every craftions webapp",
+  "description": "Upload your files in the cloud",
   "main": "server/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CraftionsMC/craftions-base"
+    "url": "https://github.com/CraftionsMC/file-uploader"
   },
-  "homepage": "https://github.com/CraftionsMC/craftions-base#readme",
+  "homepage": "https://github.com/CraftionsMC/file-uploader#readme",
   "bugs": {
-    "url": "https://github.com/CraftionsMC/craftions-base/issues"
+    "url": "https://github.com/CraftionsMC/file-uploader/issues"
   },
   "scripts": {
     "webpack:clean": "rm dist/bundle.js",
@@ -25,9 +25,9 @@
     "prettier:check": "prettier --check src",
     "prettier:write": "prettier --write src",
     "npm:deploy": "npm publish",
-    "docker:build": "docker build . -t\"mctzock/craftions-base\"",
-    "docker:deploy": "docker push mctzock/craftions-base",
-    "docker:run": "docker run -d --publish 8080:3000 --name craftions-base mctzock/craftions-base",
+    "docker:build": "docker build . -t\"mctzock/file-uploader\"",
+    "docker:deploy": "docker push mctzock/file-uploader",
+    "docker:run": "docker run -d --publish 8080:3000 --name file-uploader mctzock/file-uploader",
     "nodemon:start": "nodemon --config nodemon.json"
   },
   "author": "The Craftopns Developers",

@@ -263,9 +263,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@craftions/craftions-base-app@workspace:.":
+"@craftions/file-uploader@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@craftions/craftions-base-app@workspace:."
+  resolution: "@craftions/file-uploader@workspace:."
   dependencies:
     "@babel/core": ^7.15.8
     "@types/react": ^17.0.31
