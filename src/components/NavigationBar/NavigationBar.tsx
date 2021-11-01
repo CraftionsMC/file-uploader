@@ -50,8 +50,8 @@ export default function NavigationBar() {
           <Navbar.Item renderAs={Link} to={"/"}>
             Home
           </Navbar.Item>
-          <Navbar.Item renderAs={Link} to={"/"}>
-            Upload
+          <Navbar.Item renderAs={Link} to={"/share"}>
+            Share
           </Navbar.Item>
           <Navbar.Item renderAs={Link} to={"/abuse"}>
             Report

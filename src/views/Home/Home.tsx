@@ -16,7 +16,7 @@ export default function Home() {
         image={logo}
         imageStyle={{ width: "256px" }}
       >
-        <Link to={"/upload"}>Share</Link> files with your friends or family.
+        <Link to={"/share"}>Share</Link> files with your friends or family.
       </RHeader>
     </>
   );
